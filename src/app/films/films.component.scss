@@ -1,0 +1,38 @@
+.wrapper{
+  padding: 50px;
+  .right-position{
+    float: right;
+    padding: 5px;
+
+    button:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.films-container {
+  clear: both;
+  display: flex;
+  flex-wrap: wrap;
+  .film-container {
+    padding: 5px;
+  }
+}
+
+
+.film-cart {
+  display: flex;
+  border: 1px solid #f1f1f1;
+  padding: 10px;
+  position: relative;
+}
+
+.info-film {
+  .image {
+    width: 200px;
+  }
+  li {
+    list-style-type: none;
+  }
+}
+

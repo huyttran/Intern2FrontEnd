@@ -1,0 +1,25 @@
+.film-cart {
+  display: flex;
+  border: 1px solid #f1f1f1;
+  padding: 10px;
+  position: relative;
+  font-size: 13px;
+  background-color: #f1f1f1;
+  box-shadow: 0px 0px 5px #888888;
+  img{
+    border-radius: 5px;
+  }
+}
+
+.info-film {
+  .image {
+    width: 200px;
+  }
+  li {
+    list-style-type: none;
+  }
+  button:hover {
+    cursor: pointer;
+  }
+}
+

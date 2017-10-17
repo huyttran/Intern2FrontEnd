@@ -1,0 +1,10 @@
+<div class="wrapper">
+  <div class="right-position">
+    <button [routerLink]="['/addfilm']" class="btn btn-primary">Add Movie</button>
+  </div>
+  <div class="films-container">
+    <div class="col-md-4 film-container" *ngFor="let film of films">
+      <app-cart-film [film]="film" (fireEvent)="regain($event)"></app-cart-film>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,17 @@
+<div class="film-cart">
+  <div class="image">
+    <img src="http://via.placeholder.com/150x250/F50AAA" alt="" />
+  </div>
+  <ul class="info-film">
+    <li>
+      <h5>{{film.title}}</h5>
+    </li>
+    <li>Producer: {{film.producer}}</li>
+    <li>Date:<br> {{ film.datePulish | date:'medium' }}</li>
+    <li>Actors: {{film.actors}}</li>
+    <li>Rate: {{film.rate}}</li>
+    <li>Status: {{film.status}}</li>
+    <button (click)="viewDetail()" class="btn btn-primary">Detail</button>
+    <button (click)="delete()" class="btn btn-warning">Delete</button>
+  </ul>
+</div>
